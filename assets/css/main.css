@@ -4687,3 +4687,71 @@ input, select, textarea {
 		}
 
 	}
+.about-me {
+    margin: 3em 0;
+    padding: 2em;
+    background: #f5f5f5;
+    border-radius: 8px;
+    text-align: center; /* Center the heading */
+}
+
+.about-me .about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Ensure image and text are stacked vertically */
+}
+
+.about-me .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-me .about-me-text {
+    max-width: 800px; /* Increased max-width for a broader text area */
+    width: 100%; /* Ensure the text takes the full width available */
+    text-align: justify; /* Justify the text within the container */
+    margin: 0 auto; /* Center the text container itself */
+}
+
+.about-me h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.about-me p {
+    line-height: 1.6em;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 1.5em; /* Add space between paragraphs */
+}
+
+.my-work {
+    margin: 4em 0 0; /* Adjust margin to remove space between sections */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.my-work .major h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.my-work p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+/* Ensure there is no border or margin that could cause a line */
+.posts {
+    margin-top: 0; /* Remove top margin */
+    padding-top: 0; /* Remove any padding that could cause space */
+    border-top: none; /* Ensure there is no top border */
+}
