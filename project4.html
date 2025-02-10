@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Data Exploration in SQL - Challenges & Approach</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">By Disha Chourikar</a>
+        </header>
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- Section for Challenges & Approach -->
+            <section class="post">
+                <header class="major">
+                    <h1>Challenges Faced & Problem-Solving Approach</h1>
+                </header>
+
+                <!-- Challenges -->
+                <h3>Challenges</h3>
+                <p style="text-align: justify;">
+                    During the data cleaning process, I encountered several significant issues. The dataset contained duplicate records that needed to be removed to ensure accuracy. Additionally, the data included inconsistent date formats that required standardization to facilitate analysis. The address information was all in one column, which complicated the extraction and use of city, state, and other relevant details. Furthermore, there were numerous irrelevant columns cluttering the dataset, which had to be identified and deleted to streamline the data and prevent skewed results.
+                </p>
+
+                <!-- Approach -->
+                <h3>Approach</h3>
+                <p style="text-align: justify;">
+                    The initial step in my approach was to import the data into MySQL. I thoroughly analyzed the dataset, focusing particularly on the column structure to determine the most effective cleaning strategies. Keeping the final analysis goals in mind, I decided which transformations were necessary. I converted all date formats to a uniform standard and removed any columns that were not useful for our analysis to declutter the dataset. To efficiently manage these transformations, I utilized Common Table Expressions (CTEs) instead of subqueries, enhancing the performance and readability of the SQL queries. Additionally, I split the combined address column into separate columns for city, state, and other details, making the data more accessible and useful for detailed geographic analysis.
+                </p>
+
+                <!-- Back to Portfolio Button -->
+                <ul class="actions special">
+                    <li><a href="index.html" class="button">Back to Portfolio</a></li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="contact-info">
+                <p><strong>Phone:</strong> Ireland: +353 0899661565 | India: +91 8806418528</p>
+                <p><strong>Email:</strong> <a href="mailto:dishachourikar24@gmail.com">dishachourikar24@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/disha-chourikar" target="_blank">LinkedIn</a></p>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; 2024 Disha Chourikar. All Rights Reserved</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
