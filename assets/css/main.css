@@ -3,7 +3,6 @@
 
 /*
 	Massively by HTML5 UP
-	html5up.neta | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -4754,16 +4753,4 @@ input, select, textarea {
     margin-top: 0; /* Remove top margin */
     padding-top: 0; /* Remove any padding that could cause space */
     border-top: none; /* Ensure there is no top border */
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem; /* Adds space between the buttons */
-}
-
-.buttons-container .button {
-  padding: 0.75rem 1.5rem; /* Adjust the button size if needed */
-  font-size: 1rem; /* Make sure buttons are uniformly styled */
-  text-transform: uppercase;
 }
